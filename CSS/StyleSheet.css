@@ -60,7 +60,7 @@ a:active {
 table, th, td {
     border-collapse: collapse;
     border: 1px solid;
-    width: 75%;
+    width: 50%;
     background-color: #26913D;
     padding: 10px;
 }
