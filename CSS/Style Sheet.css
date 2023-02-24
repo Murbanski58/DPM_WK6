@@ -16,7 +16,9 @@ nav {
 
 main { background-color: #A5DFB2;
     border: 2px solid black;
-    padding-bottom: 25 px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 header { background-color:#26913D;
@@ -49,25 +51,18 @@ a:visited {
 }
 a:hover {
     color: blue;
-    background-color: aqua;
+    background-color: white;
     padding: 2px;
 }
 a:active {
     color: #12451D;
 }
 
-table {
+table, th, td {
     border-collapse: collapse;
-    width: 50%;
-    background-color: bisque;
-    border: solid black;
-}
-td {
-    text-align: left;
-    padding: 6px;
+    border: 1px solid;
+    width: 75%;
+    background-color: rgb(60, 147, 60);
+    padding: 10px;
 }
 
-th{
-    background-color: bisque;
-    color: beige;
-}
